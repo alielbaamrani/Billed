@@ -23,8 +23,8 @@ const rows = data => {
 
   return data && data.length
     ? data
-        .map((bill) => row(bill))
-        .join("")
+      .map((bill) => row(bill))
+      .join("")
     : "";
 };
 
